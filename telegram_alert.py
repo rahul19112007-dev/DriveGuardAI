@@ -3,8 +3,10 @@ import threading
 from datetime import datetime
 from gps_logger import get_location
 
-BOT_TOKEN = "8657404771:AAEq0_YGDdttj0XLtRrtgkwLGTgwzwULFlw"
-CHAT_ID = "6402037494"
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 
 def _send(message):
