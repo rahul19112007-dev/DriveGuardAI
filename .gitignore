@@ -1,11 +1,18 @@
 venv/
-__pycache__/
-*.pyc
+.env
 
 firebase_key.json
 
-logs/
+__pycache__/
+*.pyc
 
+logs/
 *.log
 
-.env
+.streamlit/
+
+.idea/
+.vscode/
+
+.DS_Store
+Thumbs.db
